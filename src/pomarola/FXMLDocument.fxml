@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="301.0" style="-fx-background-color: EB1818;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="299.0" AnchorPane.topAnchor="0.0" />
+      <JFXTextField focusColor="#eb1818" labelFloat="true" layoutX="352.0" layoutY="86.0" prefHeight="31.0" prefWidth="207.0" promptText="Tarefa" />
+      <JFXProgressBar layoutX="301.0" layoutY="-3.0" opacity="0.95" prefHeight="7.0" prefWidth="301.0" />
+      <JFXTimePicker defaultColor="#eb1818" layoutX="352.0" layoutY="154.0" prefHeight="25.0" prefWidth="207.0" />
+   </children>
+</AnchorPane>
