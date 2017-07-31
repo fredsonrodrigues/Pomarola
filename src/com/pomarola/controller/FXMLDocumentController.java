@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pomarola;
+package com.pomarola.controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -22,9 +22,8 @@ public class FXMLDocumentController implements Initializable {
     private Label label;
     
     @FXML
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
-        label.setText("Hello World!");
+    private void closeButtonAction(){
+        Runtime.getRuntime().exit(0);
     }
     
     @Override

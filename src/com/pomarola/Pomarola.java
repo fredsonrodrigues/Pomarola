@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pomarola;
+package com.pomarola;
 import javafx.application.Application;
 import javafx.event.EventHandler;
 
@@ -25,7 +25,9 @@ public class Pomarola extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("view/FXMLDocument.fxml"));
+        Parent root = loader.load(); 
         
         root.setOnMousePressed(new EventHandler<MouseEvent>() {
             @Override
